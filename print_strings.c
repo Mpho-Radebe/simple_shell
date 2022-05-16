@@ -17,7 +17,7 @@ void print_strings(char **strings)
 	{
 		if (strings[i] == NULL)
 			break;
-		printf("%s\n", strigns[i]);
+		printf("%s\n", strings[i]);
 	}
 }
 

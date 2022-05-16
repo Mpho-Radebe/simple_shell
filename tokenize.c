@@ -31,7 +31,7 @@ void tokenize(char **all_tokens, char *line, char *delims)
 
 	token = strtok(line, delims);
 
-	while (tokekn != NULL)
+	while (token != NULL)
 	{
 		rm_trail_space(token);
 		all_tokens[(int)(len)] = token;
